@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>Par o Impar</title>
+</head>
+<body>
+
+    <div class="alert alert-secondary text-center" role="alert">
+        <h3>Ingrese un Número y se Determinara si Es Par o Impar</h3>
+    </div>
+ <div class="row">
+    <div class="form-group col-8">
+        <label for="valor">Ingrese un Valor</label>
+        <input type="text" class="form-control" id="num" value="" placeholder="Ingrese Un Número"><br>
+    </div>
+    <div><input type="button" class="btn btn-secondary" value="Impar/Par" onclick="return parImpar()"></div>
+ </div>
+	
+
+ 
+<div id="resultado"></div>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
